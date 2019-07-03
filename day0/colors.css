@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+button {
+    font-size: 20px;
+    border: 1px grey;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
