@@ -1,5 +1,5 @@
 # circus
-[LIVE SITE WIP](https://https://www.natedonato.com/circus/)
+[LIVE SITE WIP](https://www.natedonato.com/circus/)
 
 website haiku
 
