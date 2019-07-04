@@ -1,11 +1,31 @@
+h1{
+    height: 50vh;
+    padding-top: 10vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    font-size: 4em;
+}
+
 body{
-    background-color: cadetblue;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pad {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .key {
     width: 100px;
     height: 100px;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
@@ -17,13 +37,13 @@ body{
 
 
 kbd {
-    /* color: white; */
+    color: white;
     font-size: 30px;
     font-weight: bolder;
 }
 
 .description{
-    color: purple;
+    color: yellow;
 }
 
 
