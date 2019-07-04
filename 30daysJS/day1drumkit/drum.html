@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./drum.css">
+    <title>DRUMKIT</title>
+</head>
+<body>
+    
+    <div class="pad">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="description">clap</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="description">kick</span>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+
+<audio data-key="65" src="sounds/clap.wav"></audio>
+<audio data-key="83" src="sounds/kick.wav"></audio>
+
+<script>
+    function playSound(e){
+        let keycode = e.keyCode;
+        
+        const audio = document.querySelector(`audio[data-key="${keycode}"]`)
+        const keyDiv = document.querySelector(`div[data-key="${keycode}"]`)
+        if(!audio) return;
+        audio.currentTime = 0;
+        audio.play();
+        keyDiv.classList.add('playing');
+    }
+    
+    const keys = document.querySelectorAll(".key");
+
+    keys.forEach(key => 
+        key.addEventListener("transitionend", removeTransition)
+    );
+
+    function removeTransition (e){
+        if(e.propertyName !== 'transform') return;
+        this.classList.remove('playing');
+    }
+
+    window.addEventListener("keydown", playSound);
+
+</script>
+</html>

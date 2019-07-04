@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+}
+
+.key {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 80ms;
+}
+
+
+kbd {
+    /* color: white; */
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.description{
+    color: purple;
+}
+
+
+.playing{
+    transform: scale(1.05);
+    background-color: lightyellow;
+    border-color: yellow;
+    box-shadow: 0px 0px 20px yellow;
+};
