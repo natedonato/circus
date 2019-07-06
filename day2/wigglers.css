@@ -1,0 +1,9 @@
+.images > img{
+    width: 256px;
+    height: 256px;
+    transition: all 0.3s ease-out;
+}
+
+body{
+    background-color: skyblue;
+}
