@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", () => {
     console.log(succs);
 
     succs.forEach(succulent => {
-        succulent.addEventListener("click", handleClick);
+        succulent.addEventListener("mouseover", handleClick);
     });
 
     function handleClick (e) {
@@ -12,7 +12,12 @@ window.addEventListener("DOMContentLoaded", () => {
             this.style.transform = "none";
         });
         
-        this.style.transform = "rotate(360deg)";
+
+        let deg = 360;
+        if(Math.random() > 0.5){deg *= -1;}
+
+
+        this.style.transform = `rotate(${deg}deg)`;
         // debugger;
         console.log(succulentNumber);
         // this.style.transform = "rotate(0deg)";
