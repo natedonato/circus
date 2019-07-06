@@ -76,12 +76,19 @@
         keyDiv.classList.remove('playing');
         keyDiv.classList.add('playing');
     }
+
+    function clickToPlay(e){
+        debugger;
+        let e = {keyCode: this};
+        playSound(e);
+    }
     
     const keys = document.querySelectorAll(".key");
 
-    keys.forEach(key => 
-        key.addEventListener("transitionend", removeTransition)
-    );
+    keys.forEach(key => {
+        key.addEventListener("transitionend", removeTransition);
+        key.addEventListener("click", clickToPlay);
+    });
 
     function removeTransition (e){
         if(e.propertyName !== 'transform') return;
@@ -89,6 +96,7 @@
     }
 
     window.addEventListener("keydown", playSound);
+
 
 </script>
 </html>
