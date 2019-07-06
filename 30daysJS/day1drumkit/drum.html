@@ -78,9 +78,8 @@
     }
 
     function clickToPlay(e){
-        debugger;
-        let e = {keyCode: this};
-        playSound(e);
+        let f = {keyCode: this.getAttribute("data-key")};
+        playSound(f);
     }
     
     const keys = document.querySelectorAll(".key");
