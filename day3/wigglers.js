@@ -19,10 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         this.style.transform = `rotate(${deg}deg)`;
         // debugger;
-        console.log(succulentNumber);
         // this.style.transform = "rotate(0deg)";
-
-
     }
 
     
