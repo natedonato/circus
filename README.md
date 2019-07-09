@@ -11,16 +11,18 @@ A simple light switch that activates a strobe effect.  Not recommended for anyon
 
 To be added: speed slider and color picker.
 
-## Day 2: 
+## Day 2: Drumpad
 Interactive virtual drumpad based off a JavaScript30 project.  Really fun to bang out some beats!  Uses HTML audio elements and keydown / CSS transition events.
 
 To be added: sound selection, mobile accessible interface.
 
-## Day 3:
-Spinning succulents.  What more can I say?
+## Day 3: Succs
+Spinning succulents.  What more could you want?
 Simple CSS animation practice with mouseover events, spin direction is randomized and reverses back to original position.
 
-To be added: nothing core, I like the current simplicity.  Later will add generalized header or footer with links back to my portfolio and github pages.
+To be added: 
+
+## Day 4: 
 
 
 
@@ -58,5 +60,11 @@ Transformers
 
 Video clip drumkit
 Sampler drumkit (mobile?)
+
+Meditation timer
+
+Zen boxes
+
+Dress the cat
 
 Basic platformer or sprite shooter
