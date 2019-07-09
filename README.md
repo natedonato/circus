@@ -22,7 +22,10 @@ Simple CSS animation practice with mouseover events, spin direction is randomize
 
 To be added: 
 
-## Day 4: 
+## Day 4: DressCat
+A cat dress up game in pure JS / CSS / DOM manipulation.  Any artists out there want to contribute to the cat costume closet?
+
+To be added: more artwork
 
 
 
@@ -64,7 +67,5 @@ Sampler drumkit (mobile?)
 Meditation timer
 
 Zen boxes
-
-Dress the cat
 
 Basic platformer or sprite shooter
