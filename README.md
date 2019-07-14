@@ -27,6 +27,10 @@ A cat dress up game in pure JS / CSS / DOM manipulation.  Much of the work was s
 
 To be added: more artwork
 
+## Day 5: Meditate
+A meditation web app using React.  Set a timer, choose from optional calming background sounds including waves, rain, and prayer bowls, and give yourself a moment to relax.
+
+To be added: chime alert on end, better mobile styling.
 
 
 
