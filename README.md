@@ -41,6 +41,8 @@ ferris wheel splash page?
 
 blog page / mini ideas blog page
 
+drawing pad
+
 trending image remixer
 
 photo jiggler (add random class animations)
@@ -61,6 +63,8 @@ Color Tiles
 
 Random sentence generator
 
+particle exploder
+
 nateapi
 
 Transformers
@@ -73,3 +77,5 @@ Meditation timer
 Zen boxes
 
 Basic platformer or sprite shooter
+
+shakespeare
