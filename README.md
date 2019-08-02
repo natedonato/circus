@@ -22,8 +22,15 @@ Simple CSS animation practice with mouseover events, spin direction is randomize
 
 To be added: 
 
-## Day 4: 
+## Day 4: DressCat
+A cat dress up game in pure JS / CSS / DOM manipulation.  Much of the work was spent in photoshop instead of vs code.
 
+To be added: more artwork
+
+## Day 5: Meditate
+A meditation web app using React.  Set a timer, choose from optional calming background sounds including waves, rain, and prayer bowls, and give yourself a moment to relax.
+
+To be added: chime alert on end, better mobile styling.
 
 
 
@@ -33,6 +40,8 @@ To be added:
 ferris wheel splash page?
 
 blog page / mini ideas blog page
+
+drawing pad
 
 trending image remixer
 
@@ -54,6 +63,8 @@ Color Tiles
 
 Random sentence generator
 
+particle exploder
+
 nateapi
 
 Transformers
@@ -65,6 +76,6 @@ Meditation timer
 
 Zen boxes
 
-Dress the cat
-
 Basic platformer or sprite shooter
+
+shakespeare
